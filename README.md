@@ -31,7 +31,7 @@
 	- Change the third line the values ('dbname', 'root', 'dbpassword')
 - Go to docker-compose.yml and edit it
 	 - Edit the config of DB(in this case, MySQL) with the same values of db.js
-
+------------
 #### NPM COMMANDS
 There are some npm commands ready to use after clone this repo, it is:
 
