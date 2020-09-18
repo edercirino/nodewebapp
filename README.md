@@ -9,14 +9,15 @@
 - models
 	- db.js
 	- index.js
-- src
-	- style
+- public
+	- css
+		- style.css
 - views
 	- layouts
 - .gitignore
 - docker-compose.yml
 - package.json
-- routes.js
+- server.js
 
 ------------
 #### You need to have installed in your PC the follow programs:
