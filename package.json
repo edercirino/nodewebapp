@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:db": "nodemon /models/db.js",
     "start:app": "nodemon routes.js",
-    "infra": "npm i express && npm i -g nodemon && npm i sequelize && npm i mysql2 && npm i express-handlebars && npm i body-parser",
+    "infra": "npm i express && npm i nodemon && npm i sequelize && npm i mysql2 && npm i express-handlebars && npm i body-parser",
     "dockerstop": "docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q) && docker rmi $(docker images -q)"
   },
   "keywords": [],
